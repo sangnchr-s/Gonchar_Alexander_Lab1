@@ -1,0 +1,13 @@
+name: lab1_gonchar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - pandas==3.1.0
+      - numpy==2.5.4
+      - matplotlib==3.11.2
+      - seaborn==0.13.2
+      - jupyterlab==4.6.5
+      - ipykernel==7.4.0
